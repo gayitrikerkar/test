@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>URSOfferComparer Introduction | URSOfferComparer Docs </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="URSOfferComparer Introduction | URSOfferComparer Docs ">
+      
+      
+      <link rel="icon" href="../../favicon.ico">
+      <link rel="stylesheet" href="../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../public/main.css">
+      <meta name="docfx:navrel" content="../../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../index.html">
+            <img id="logo" class="svg" src="../../logo.svg" alt="URSOfferComparer Docs">
+            URSOfferComparer Docs
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="URSOfferComparer-intro">
+<h1 id="introduction">Introduction<br></h1>
+
+<br>
+<h2 id="project-name-excel-comparison">Project Name: Excel Comparison</h2>
+<br>
+<h3 id="objective">Objective:</h3>
+<p>This is a web application which holds the functionality of performing a comparison amongst the different Excel files and generating the desired output as a web page.</p>
+<h3 id="key-functionalities">Key Functionalities:</h3>
+<ul>
+<li>Standard UI to allow the user to upload different excel files/ a single folder with multiple files.</li>
+<li>Functionality to segregate the uploaded files into two categories as below:Spot Export and Reqmen Files.</li>
+<li>Functionality to read the file in a sequence.</li>
+<li>Functionality to perform the comparison between each Reqmen file with the Spot Export based on the column named Text Module (TM) Number.</li>
+<li>Generate Output in the form of standard web page.</li>
+</ul>
+<h3 id="description">Description:</h3>
+<p>This is a web application which is responsible for implementing the functionality of performing the row wise comparison between excel files. For this project there are two main categories under which the excel files are classified, Spot export and Reqmen files respectively.</p>
+<p>Spot export represents a single excel file containing the data for each of the different machines whereas Reqmen files are the user requirement specifications from the customers and there can be multiple Reqmen files available.</p>
+<p>Spot export file is with the following columns:
+TM Number, Description, Order Type, Quantity, New Quantity, Price per unit etc
+Reqmen files has the following columns:
+URS ID, TM Number, Description, etc</p>
+<p>This web application will allow the user to upload multiple files/ a single folder using a single file upload. Upon the completion of uploading, the application will separate the uploaded files into the above two categories, Spot and Reqmen respectively after which it will begin with the main functionality of this application which is comparison.</p>
+<p>The comparison is based on TM Number of each Reqmen file and Spot export. There will be a row wise comparison wherein each row of Reqmen file will be compared with every row of spot export. If there is match found, then that record will be displayed in the output.</p>
+<p>The final output will be in the form of web page with pagination implemented. This output will have URS ID, TM Number and Description from Reqmen file and matched TM Number, Description and Machine name from Spot Export. Also, there will be a column mentioning about whether the match for the specific TM Number was found or not and it will be quoted as &quot;OK&quot; or &quot;NOK&quot;.</p>
+<p>Since there is only one Spot export file representing all the machines, there is a possibility of one TM number from Reqmen file existing at multiple rows in Spot export, if this is the case then it will display all of the machine names for which the particular TM number is matched.</p>
+<p>Row splitting
+There is also a possibility that any row in Reqmen can have multiple TM numbers separated by comma, if this is the case then it will first create two rows and then the comparison will occur.</p>
+<h3 id="technologies-used">Technologies Used:</h3>
+<ul>
+<li>.Net Core 8.0 with C#</li>
+<li>Web Framework: ASP.Net Core 8.0</li>
+<li>Design Pattern: MVC</li>
+<li>Front-End-Framework: Blazor with Mudblazor</li>
+<li>Database: None</li>
+<li>Library: ClosedXML</li>
+<li>Web Server: IIS</li>
+</ul>
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          © Copyright 2026, ENG-Team-104.
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

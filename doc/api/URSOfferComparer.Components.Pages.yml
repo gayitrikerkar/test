@@ -1,0 +1,90 @@
+### YamlMime:ManagedReference
+items:
+- uid: URSOfferComparer.Components.Pages
+  commentId: N:URSOfferComparer.Components.Pages
+  id: URSOfferComparer.Components.Pages
+  children:
+  - URSOfferComparer.Components.Pages.Counter
+  - URSOfferComparer.Components.Pages.Counter.__PrivateComponentRenderModeAttribute
+  - URSOfferComparer.Components.Pages.Error
+  - URSOfferComparer.Components.Pages.Home
+  - URSOfferComparer.Components.Pages.Weather
+  - URSOfferComparer.Components.Pages.Weather.WeatherForecast
+  langs:
+  - csharp
+  - vb
+  name: URSOfferComparer.Components.Pages
+  nameWithType: URSOfferComparer.Components.Pages
+  fullName: URSOfferComparer.Components.Pages
+  type: Namespace
+  assemblies:
+  - URSOfferComparer
+references:
+- uid: URSOfferComparer.Components.Pages.Home
+  commentId: T:URSOfferComparer.Components.Pages.Home
+  href: URSOfferComparer.Components.Pages.Home.html
+  name: Home
+  nameWithType: Home
+  fullName: URSOfferComparer.Components.Pages.Home
+- uid: URSOfferComparer.Components.Pages.Weather
+  commentId: T:URSOfferComparer.Components.Pages.Weather
+  href: URSOfferComparer.Components.Pages.Weather.html
+  name: Weather
+  nameWithType: Weather
+  fullName: URSOfferComparer.Components.Pages.Weather
+- uid: URSOfferComparer.Components.Pages.Weather.WeatherForecast
+  commentId: T:URSOfferComparer.Components.Pages.Weather.WeatherForecast
+  href: URSOfferComparer.Components.Pages.Weather.html
+  name: Weather.WeatherForecast
+  nameWithType: Weather.WeatherForecast
+  fullName: URSOfferComparer.Components.Pages.Weather.WeatherForecast
+  spec.csharp:
+  - uid: URSOfferComparer.Components.Pages.Weather
+    name: Weather
+    href: URSOfferComparer.Components.Pages.Weather.html
+  - name: .
+  - uid: URSOfferComparer.Components.Pages.Weather.WeatherForecast
+    name: WeatherForecast
+    href: URSOfferComparer.Components.Pages.Weather.WeatherForecast.html
+  spec.vb:
+  - uid: URSOfferComparer.Components.Pages.Weather
+    name: Weather
+    href: URSOfferComparer.Components.Pages.Weather.html
+  - name: .
+  - uid: URSOfferComparer.Components.Pages.Weather.WeatherForecast
+    name: WeatherForecast
+    href: URSOfferComparer.Components.Pages.Weather.WeatherForecast.html
+- uid: URSOfferComparer.Components.Pages.Error
+  commentId: T:URSOfferComparer.Components.Pages.Error
+  href: URSOfferComparer.Components.Pages.Error.html
+  name: Error
+  nameWithType: Error
+  fullName: URSOfferComparer.Components.Pages.Error
+- uid: URSOfferComparer.Components.Pages.Counter
+  commentId: T:URSOfferComparer.Components.Pages.Counter
+  href: URSOfferComparer.Components.Pages.Counter.html
+  name: Counter
+  nameWithType: Counter
+  fullName: URSOfferComparer.Components.Pages.Counter
+- uid: URSOfferComparer.Components.Pages.Counter.__PrivateComponentRenderModeAttribute
+  commentId: T:URSOfferComparer.Components.Pages.Counter.__PrivateComponentRenderModeAttribute
+  href: URSOfferComparer.Components.Pages.Counter.html
+  name: Counter.__PrivateComponentRenderModeAttribute
+  nameWithType: Counter.__PrivateComponentRenderModeAttribute
+  fullName: URSOfferComparer.Components.Pages.Counter.__PrivateComponentRenderModeAttribute
+  spec.csharp:
+  - uid: URSOfferComparer.Components.Pages.Counter
+    name: Counter
+    href: URSOfferComparer.Components.Pages.Counter.html
+  - name: .
+  - uid: URSOfferComparer.Components.Pages.Counter.__PrivateComponentRenderModeAttribute
+    name: __PrivateComponentRenderModeAttribute
+    href: URSOfferComparer.Components.Pages.Counter.__PrivateComponentRenderModeAttribute.html
+  spec.vb:
+  - uid: URSOfferComparer.Components.Pages.Counter
+    name: Counter
+    href: URSOfferComparer.Components.Pages.Counter.html
+  - name: .
+  - uid: URSOfferComparer.Components.Pages.Counter.__PrivateComponentRenderModeAttribute
+    name: __PrivateComponentRenderModeAttribute
+    href: URSOfferComparer.Components.Pages.Counter.__PrivateComponentRenderModeAttribute.html

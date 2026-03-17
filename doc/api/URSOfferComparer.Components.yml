@@ -1,0 +1,37 @@
+### YamlMime:ManagedReference
+items:
+- uid: URSOfferComparer.Components
+  commentId: N:URSOfferComparer.Components
+  id: URSOfferComparer.Components
+  children:
+  - URSOfferComparer.Components.App
+  - URSOfferComparer.Components.Routes
+  - URSOfferComparer.Components._Imports
+  langs:
+  - csharp
+  - vb
+  name: URSOfferComparer.Components
+  nameWithType: URSOfferComparer.Components
+  fullName: URSOfferComparer.Components
+  type: Namespace
+  assemblies:
+  - URSOfferComparer
+references:
+- uid: URSOfferComparer.Components.App
+  commentId: T:URSOfferComparer.Components.App
+  href: URSOfferComparer.Components.App.html
+  name: App
+  nameWithType: App
+  fullName: URSOfferComparer.Components.App
+- uid: URSOfferComparer.Components.Routes
+  commentId: T:URSOfferComparer.Components.Routes
+  href: URSOfferComparer.Components.Routes.html
+  name: Routes
+  nameWithType: Routes
+  fullName: URSOfferComparer.Components.Routes
+- uid: URSOfferComparer.Components._Imports
+  commentId: T:URSOfferComparer.Components._Imports
+  href: URSOfferComparer.Components._Imports.html
+  name: _Imports
+  nameWithType: _Imports
+  fullName: URSOfferComparer.Components._Imports
