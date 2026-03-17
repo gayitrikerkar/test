@@ -1,0 +1,51 @@
+Emp code:KG1224 
+pc : PC-PF63AZ22
+email : Gayitri.Kerkar@syntegon.com
+laptop password : 
+old :@GeGaMee15081196
+new :@GeGaMee15110896
+
+laptop pin : 111996
+greythr password : @GeGaMee15
+
+vfs
+username:Gayitri.Kerkar@syntegon.com
+password:
+@GeGaMee1508199
+
+itr
+@GeGaMee1508
+
+GitHub
+username:gayitrikerkar
+@GeGaMee15081196
+
+sql server:
+sa
+S!ql74123698
+ip:192.168.138.128
+
+DEU/GOI/270226/0001/01
+
+35456037190
+timesheet-every week fill
+https://klenzaid.sharepoint.com/:f:/s/GOA/IgB3dtv3nSS5QJLeFgYm4Xe6AcgVOrcprC2oO2iWAOg3jpg?email=gayitri.kerkar%40syntegon.com&e=Jfb1er
+
+planning-month end fill
+https://klenzaid.sharepoint.com/:f:/s/GOA/IgCw9gAfPfXbRLr1gCdohc9lAVBvyaVrt3PgBT3jLX13Gnc?email=gayitri.kerkar%40syntegon.com&e=pqOXyF
+
+
+sharepoint folder
+https://patec-my.sharepoint.com/personal/yogesh_sharma_syntegon_com/_layouts/15/onedrive.aspx?csf=1&web=1&e=43KlKd&ovuser=2cccf150%2D62f6%2D4f78%2Dace8%2D1d255dbb15b9%2CGayitri%2EKerkar%40syntegon%2Ecom&OR=Teams%2DHL&CT=1768386451372&clickparams=eyJBcHBOYW1lIjoiVGVhbXMtRGVza3RvcCIsIkFwcFZlcnNpb24iOiI0OS8yNTExMzAwMTMxMiIsIkhhc0ZlZGVyYXRlZFVzZXIiOmZhbHNlfQ%3D%3D&CID=8be3eca1%2Dd064%2De000%2Dcbf9%2Dfd767af6b6c5&cidOR=SPO&id=%2Fpersonal%2Fyogesh%5Fsharma%5Fsyntegon%5Fcom%2FDocuments%2FHMI%20HLL%20Cra%20Exchange&FolderCTID=0x01200054EC54C10272CB49A5D6F57FB77FD219&view=0
+
+service portal
+https://pa-amc.ivanticloud.com/Modules/SelfService/#myItems/view/F7BB0281B81746FC9893BDF808681922
+
+jira/confluence install request
+https://syntegon.identitynow.com/ui/d/request-center/roles
+
+confluence
+https://id.atlassian.com/login/select-account?application=confluence&continue=https%3A%2F%2Fsyntegon.atlassian.net%2Fwiki%2Fspaces%2FVCR%2Fpages%2F130285776%2FEngineering&login_hint=not%3Agayitri.kerkar%40syntegon.com&redirectCount=1
+
+jira
+https://id.atlassian.com/login/select-account?application=jira&continue=https%3A%2F%2Fsyntegon.atlassian.net%2Fjira%2Fsoftware%2Fc%2Fprojects%2FPCE%2Fboards%2F842%3FissueParent%3D376592&login_hint=not%3Agayitri.kerkar%40syntegon.com&redirectCount=1
